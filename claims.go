@@ -21,5 +21,5 @@ func (c *Claims) IsValidIssuer(issuers []string) bool {
 		}
 	}
 
-	return !found
+	return found
 }
